@@ -19,8 +19,9 @@ CYAN = '#2aa198'
 GREEN = '#859900'
 
 class SolarizedStyle(Style):
-    default_style = '%s bg:%s' % (BASE1, BASE3)
+    background_color = BASE3
     styles = {
+        Text                    : 'bg: %s %s' % (BASE3, BASE01),
         Keyword                 : GREEN,
         Keyword.Constant        : 'bold',
         #Keyword.Declaration     :
@@ -39,6 +40,6 @@ class SolarizedStyle(Style):
         Number                  : 'bold',
         #Operator                :
         Operator.Word           : GREEN,
-        Comment                 : BASE00,
-        Generic                 : BASE01,
+        Comment                 : BASE1 + ' italic',
+        Generic                 : MAGENTA,
     }
