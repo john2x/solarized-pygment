@@ -19,9 +19,9 @@ CYAN = '#2aa198'
 GREEN = '#859900'
 
 class SolarizedStyle(Style):
-    background_color = BASE3
+    background_color = BASE2
     styles = {
-        Text                    : 'bg: %s %s' % (BASE3, BASE01),
+        Text                    : 'bg: %s %s' % (BASE2, BASE01),
         Keyword                 : GREEN,
         Keyword.Constant        : 'bold',
         #Keyword.Declaration     :
