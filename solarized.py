@@ -1,6 +1,6 @@
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
-     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
+     Number, Operator, Generic, Whitespace, Punctuation, Other, Literal, Text
 
 BASE0 = '#839496'
 BASE1 = '#93a1a1'
