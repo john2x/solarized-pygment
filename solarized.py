@@ -20,6 +20,7 @@ CYAN = '#2aa198'
 GREEN = '#859900'
 
 class SolarizedStyle(Style):
+    """ Pygments version of the solarized theme. """
     background_color = BASE2
     styles = {
         Text                    : 'bg: %s %s' % (BASE2, BASE01),
