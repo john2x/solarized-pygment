@@ -8,19 +8,19 @@ setup(
     description='Pygments version of the solarized theme.',
     keywords='pygments style solarized',
     license='BSD',
-    author='John Louis Del Rosario, Hank Gay, John Mastro',
+    author='John Louis Del Rosario, Hank Gay, John Mastro, Brandon Bennett',
     author_email='john2x@gmail.com',
 
     url='https://github.com/john2x/solarized-pygment',
 
-    py_modules=['pygments-solarized'],
+    packages = find_packages(),
     install_requires=['pygments >= 1.4'],
 
     entry_points='''
     [pygments.styles]
-    solarized=solarized:SolarizedStyle
-    solarized_dark=solarized:SolarizedDarkStyle
-    solarized_dark256=solarized:SolarizedDark256Style
+    solarized=pygments_solarized:SolarizedStyle
+    solarized_dark=pygments_solarized:SolarizedDarkStyle
+    solarized_dark256=pygments_solarized:SolarizedDark256Style
     ''',
 
     classifiers=[
