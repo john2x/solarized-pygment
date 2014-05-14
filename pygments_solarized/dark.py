@@ -94,7 +94,7 @@ class SolarizedDarkStyle(Style):
         # Generic.Output
         # Generic.Prompt
         Generic.Strong: 'bold',
-        Generic.Subheading: ORANGE,
+        Generic.Subheading: BLUE,
         # Generic.Traceback
 
         Token: BASE1,
