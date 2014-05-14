@@ -18,7 +18,7 @@ MAGENTA = '#D33682'
 VIOLET = '#6C71C4'
 BLUE = '#268BD2'
 CYAN = '#2AA198'
-GREEN = '#859900'
+GREEN = '#719e07'
 
 
 class SolarizedDarkStyle(Style):
@@ -86,9 +86,9 @@ class SolarizedDarkStyle(Style):
         Comment.Special: GREEN,
 
         # Generic
-        Generic.Deleted: CYAN,
+        Generic.Deleted: RED,
         Generic.Emph: 'italic',
-        Generic.Error: RED,
+        Generic.Error: RED + ' bold',
         Generic.Heading: ORANGE,
         Generic.Inserted: GREEN,
         # Generic.Output

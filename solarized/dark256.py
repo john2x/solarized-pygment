@@ -86,9 +86,9 @@ class SolarizedDark256Style(Style):
         Comment.Special: GREEN,
 
         # Generic
-        Generic.Deleted: CYAN,
+        Generic.Deleted: RED,
         Generic.Emph: 'italic',
-        Generic.Error: RED,
+        Generic.Error: RED + ' bold',
         Generic.Heading: ORANGE,
         Generic.Inserted: GREEN,
         # Generic.Output
