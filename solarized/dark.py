@@ -20,19 +20,21 @@ BLUE = '#268BD2'
 CYAN = '#2AA198'
 GREEN = '#859900'
 
+
 class SolarizedDarkStyle(Style):
+
     """ Dark version solarized theme (http://ethanschoonover.com/solarized). """
     background_color = BASE03
     styles = {
         Keyword: GREEN,
         Keyword.Constant: ORANGE,
         Keyword.Declaration: BLUE,
-        #Keyword.Namespace
-        #Keyword.Pseudo
+        # Keyword.Namespace
+        # Keyword.Pseudo
         Keyword.Reserved: BLUE,
         Keyword.Type: RED,
 
-        #Name
+        # Name
         Name.Attribute: BASE1,
         Name.Builtin: YELLOW,
         Name.Builtin.Pseudo: BLUE,
@@ -42,58 +44,58 @@ class SolarizedDarkStyle(Style):
         Name.Entity: ORANGE,
         Name.Exception: ORANGE,
         Name.Function: BLUE,
-        #Name.Label
-        #Name.Namespace
-        #Name.Other
+        # Name.Label
+        # Name.Namespace
+        # Name.Other
         Name.Tag: BLUE,
         Name.Variable: BLUE,
-        #Name.Variable.Class
-        #Name.Variable.Global
-        #Name.Variable.Instance
+        # Name.Variable.Class
+        # Name.Variable.Global
+        # Name.Variable.Instance
 
-        #Literal
-        #Literal.Date
+        # Literal
+        # Literal.Date
         String: CYAN,
         String.Backtick: BASE01,
         String.Char: CYAN,
         String.Doc: BASE1,
-        #String.Double
+        # String.Double
         String.Escape: ORANGE,
         String.Heredoc: BASE1,
-        #String.Interpol
-        #String.Other
+        # String.Interpol
+        # String.Other
         String.Regex: RED,
-        #String.Single
-        #String.Symbol
+        # String.Single
+        # String.Symbol
         Number: CYAN,
-        #Number.Float
-        #Number.Hex
-        #Number.Integer
-        #Number.Integer.Long
-        #Number.Oct
+        # Number.Float
+        # Number.Hex
+        # Number.Integer
+        # Number.Integer.Long
+        # Number.Oct
 
         Operator: GREEN,
-        #Operator.Word
+        # Operator.Word
 
-        #Punctuation: ORANGE,
+        # Punctuation: ORANGE,
 
         Comment: BASE01,
-        #Comment.Multiline
+        # Comment.Multiline
         Comment.Preproc: GREEN,
-        #Comment.Single
+        # Comment.Single
         Comment.Special: GREEN,
 
-        #Generic
+        # Generic
         Generic.Deleted: CYAN,
         Generic.Emph: 'italic',
         Generic.Error: RED,
         Generic.Heading: ORANGE,
         Generic.Inserted: GREEN,
-        #Generic.Output
-        #Generic.Prompt
+        # Generic.Output
+        # Generic.Prompt
         Generic.Strong: 'bold',
         Generic.Subheading: ORANGE,
-        #Generic.Traceback
+        # Generic.Traceback
 
         Token: BASE1,
         Token.Other: ORANGE,
