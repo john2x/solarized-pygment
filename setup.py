@@ -3,21 +3,25 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='solarized-pygment',
-    version='0.1',
+    name='pygments-solarized',
+    version='0.2',
     description='Pygments version of the solarized theme.',
     keywords='pygments style solarized',
-    #license='BSD',
-    author='John Louis Del Rosario',
+    license='BSD',
+    author='John Louis Del Rosario, Hank Gay, John Mastro',
     author_email='john2x@gmail.com',
 
     url='https://github.com/john2x/solarized-pygment',
 
-    py_modules=['solarized'],
+    py_modules=['pygments-solarized'],
     install_requires=['pygments >= 1.4'],
 
-    entry_points='''[pygments.styles]
-                    solarized=solarized:SolarizedStyle''',
+    entry_points='''
+    [pygments.styles]
+    solarized=solarized:SolarizedStyle
+    solarized_dark=solarized:SolarizedDarkStyle
+    solarized_dark256=solarized:SolarizedDark256Style
+    ''',
 
     classifiers=[
         'Development Status :: 4 - Beta',

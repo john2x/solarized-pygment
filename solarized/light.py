@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal, Text
@@ -20,7 +21,7 @@ CYAN = '#2aa198'
 GREEN = '#859900'
 
 class SolarizedStyle(Style):
-    """ Pygments version of the solarized theme. """
+    """ Light version solarized theme (http://ethanschoonover.com/solarized). """
     background_color = BASE2
     styles = {
         Text                    : 'bg: %s %s' % (BASE2, BASE01),
