@@ -1,7 +1,22 @@
-Place solarized.py in site-packages/pygments/styles/ to use with Pygments.
+# Solarized Pygments Style
 
-Or, use the setup.py:
+## What Is It?
+
+This is a simple style for [Pygments][pygments_home] that is inspired by the
+[Solarized project][solarized_home] by Ethan Schoonover.
+
+This includes both the light and dark versions
+
+## How Do I Use It?
+Install it as a pygments plugin using the following command
 
     ./setup.py install
 
-This style is based on the light version of [Solarized](https://github.com/altercation/solarized).
+## Acknoledgements
+
+* Light version pygments port - [John Louis Del Rosario (john2x)](/john2x)
+* Dark version pygments port - [Hank (gthank)](/gthank)
+
+## Resources
+[pygments_home]: http://pygments.org/
+[solarized_home]: http://ethanschoonover.com/solarized
